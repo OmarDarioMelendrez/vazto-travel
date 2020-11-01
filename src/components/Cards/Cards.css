@@ -1,0 +1,32 @@
+.cards {
+  width: 100%;
+  padding: 4rem;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  list-style: none;
+}
+.cards__container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.cards__wrapper {
+  position: relative;
+  margin: 50px 0 50px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: flex;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cards__items {
+    flex-direction: column;
+  }
+}
