@@ -6,7 +6,7 @@ import './HeroSection.css'
 //importando icono
 import {FaPlayCircle} from 'react-icons/fa'
 //importamos el video
-import Video from '../../videos/video-2.mp4'
+import Video from '../../videos/video-1.mp4'
 
 function HeroSection() {
   return (

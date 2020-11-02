@@ -26,6 +26,9 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .cards {
+    padding: 2rem;
+  }
   .cards__items {
     flex-direction: column;
   }
